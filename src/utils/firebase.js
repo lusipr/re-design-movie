@@ -27,15 +27,6 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_FIREBASE_APP_ID,
   measurementId: process.env.MEASUREMENT_ID,
 };
-// const firebaseConfig = {
-//     apiKey: "AIzaSyBww93W06hKCYnyqH1d7NeqOAlIiV2fEDk",
-//     authDomain: "login-47d21.firebaseapp.com",
-//     projectId: "login-47d21",
-//     storageBucket: "login-47d21.appspot.com",
-//     messagingSenderId: "111429713826",
-//     appId: "1:111429713826:web:4eb8ee707691446a497cfb",
-//     measurementId: "G-LHT5XPWMSC"
-// };
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
